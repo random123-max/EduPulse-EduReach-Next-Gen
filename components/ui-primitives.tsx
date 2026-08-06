@@ -1,7 +1,7 @@
 'use client'
 
 import { createContext, useCallback, useContext, useEffect, useState } from 'react'
-import { X, CheckCircle2 } from 'lucide-react'
+import { X, CircleCheck as CheckCircle2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 /* ---------------- Toast ---------------- */

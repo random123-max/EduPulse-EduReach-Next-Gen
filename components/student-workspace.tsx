@@ -1,33 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import {
-  LayoutDashboard,
-  CalendarDays,
-  ListChecks,
-  Calendar,
-  BookMarked,
-  StickyNote,
-  Sparkles,
-  BarChart3,
-  Timer,
-  Settings,
-  Search,
-  Bell,
-  Play,
-  Pause,
-  RotateCcw,
-  Flag,
-  BookOpen,
-  Repeat,
-  Target,
-  Trophy,
-  Check,
-  Zap,
-  ArrowRight,
-  Plus,
-  X,
-} from 'lucide-react'
+import { LayoutDashboard, CalendarDays, ListChecks, Calendar, BookMarked, StickyNote, Sparkles, ChartBar as BarChart3, Timer, Settings, Search, Bell, Play, Pause, RotateCcw, Flag, BookOpen, Repeat, Target, Trophy, Check, Zap, ArrowRight, Plus, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useToast } from '@/components/ui-primitives'
 
